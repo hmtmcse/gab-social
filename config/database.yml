@@ -9,7 +9,9 @@ default: &default
 development:
   primary:
     <<: *default
-    url: 'postgres://localhost/gabsocial_development'
+    username: 'gabsocial'
+    password: ''
+    url: 'postgres://localhost/gabsocial'
   slave1:
     <<: *default
     url: <%= ENV['DB_SLAVE1_URL'] %>
