@@ -268,7 +268,7 @@ class Status < ApplicationRecord
   after_create_commit :store_uri, if: :local?
   after_create_commit :update_statistics, if: :local?
 
-  around_create GabSocial::Snowflake::Callbacks
+#   around_create GabSocial::Snowflake::Callbacks
 
   before_validation :prepare_contents, if: :local?
   before_validation :set_reblog
