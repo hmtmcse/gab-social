@@ -1,8 +1,8 @@
-# frozen_string_literal: true
-
-module GabSocial::Snowflake
-  DEFAULT_REGEX = /timestamp_id\('(?<seq_prefix>\w+)'/
-
+# # frozen_string_literal: true
+#
+# module GabSocial::Snowflake
+#   DEFAULT_REGEX = /timestamp_id\('(?<seq_prefix>\w+)'/
+#
 #   class Callbacks
 #     def self.around_create(record)
 #       now = Time.now.utc
@@ -159,4 +159,4 @@ module GabSocial::Snowflake
 #       ActiveRecord::Base.connection
 #     end
 #   end
-end
+# end
