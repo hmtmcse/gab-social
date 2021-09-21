@@ -133,8 +133,13 @@ certbot --nginx -d sm.problemfighter.net
 
 
 export RAILS_ENV=production
+RAILS_ENV=production bundle exec rake gabsocial:setup
+
 export NODE_ENV=production
 
+
+sudo -u postgres psql
+DROP DATABASE gabsocial_production
 
 
 

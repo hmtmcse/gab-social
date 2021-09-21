@@ -43,9 +43,7 @@ test:
 production:
   primary:
     <<: *default
-    username: 'gabsocial'
-    host: ''
-    database: 'gabsocial_production'
+    url: <%= ENV['DB_MASTER_URL'] %>
   slave1:
     <<: *default
     url: <%= ENV['DB_SLAVE1_URL'] %>
