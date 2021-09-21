@@ -54,7 +54,7 @@ class GroupHeader extends ImmutablePureComponent {
 
   handleCopySlug = () => {
     const { group } = this.props
-    const url = !!group ? !!group.get('slug') ? `https://gab.com/g/${group.get('slug')}` : undefined : undefined
+    const url = !!group ? !!group.get('slug') ? `https://sm.problemfighter.net/g/${group.get('slug')}` : undefined : undefined
     if (!url) return
     
     const textarea = document.createElement('textarea')

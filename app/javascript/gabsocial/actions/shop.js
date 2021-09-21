@@ -15,7 +15,7 @@ export const fetchFeaturedProducts = () => (dispatch, getState) => {
 
   dispatch(fetchFeaturedProductsRequest('featured'))
 
-  axios.get('https://dissenter-shop.gab.com/product/group/json').then((response) => {
+  axios.get('https://dissenter-shop.sm.problemfighter.net/product/group/json').then((response) => {
     try {
       dispatch(fetchFeaturedProductsSuccess(response.data.data, 'featured'))        
     } catch (error) {

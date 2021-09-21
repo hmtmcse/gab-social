@@ -37,7 +37,7 @@ const normalizeHeadlineItem = (item) => {
   return ImmutableMap({
     trend_id: item._id,
     title: item.title,
-    trends_url: `https://trends.gab.com/trend?url=${item.href}`,
+    trends_url: `https://trends.sm.problemfighter.net/trend?url=${item.href}`,
   })
 }
 
@@ -52,7 +52,7 @@ const normalizeTrendsItem = (item) => {
     feed_base_url: `${item.feed.url}`.replace('www.', '').replace('https://', '').replace('http://', '').replace('/', ''),
     trend_feed_id: item.feed._id,
     trend_id: item._id,
-    trends_url: `https://trends.gab.com/trend?url=${item.link}`,
+    trends_url: `https://trends.sm.problemfighter.net/trend?url=${item.link}`,
   })
 }
 
@@ -107,8 +107,8 @@ export default function (state = initialState, action) {
         trendsFetchData.trends_breaking = ImmutableList(action.items.trends.rssFeedItems.map((item) => normalizeTrendsItem(item)))
         trendsFetchData.trends_leadline = ImmutableMap({
           title: action.items.trends.headline.title,
-          image: `https://trends.gab.com/image/${action.items.trends.headline.image._id}`,
-          trends_url: `https://trends.gab.com/trend?url=${action.items.trends.headline.href}`,
+          image: `https://trends.sm.problemfighter.net/image/${action.items.trends.headline.image._id}`,
+          trends_url: `https://trends.sm.problemfighter.net/trend?url=${action.items.trends.headline.href}`,
         })
       } catch (error) {
         trendsFetchData = {

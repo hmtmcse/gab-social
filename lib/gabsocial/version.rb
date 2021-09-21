@@ -37,7 +37,7 @@ module GabSocial
     end
 
     def source_base_url
-      ENV.fetch('SOURCE_BASE_URL') { "https://code.gab.com/#{repository}" }
+      ENV.fetch('SOURCE_BASE_URL') { "https://code.sm.problemfighter.net/#{repository}" }
     end
 
     # specify git tag or commit hash here

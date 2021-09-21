@@ -51,9 +51,9 @@ class GabNewsPanel extends ImmutablePureComponent {
         noPadding
         title={intl.formatMessage(messages.title)}
         headerButtonTitle={intl.formatMessage(messages.readMore)}
-        headerButtonHref='https://news.gab.com'
+        headerButtonHref='https://news.sm.problemfighter.net'
         footerButtonTitle={intl.formatMessage(messages.readMore)}
-        footerButtonHref='https://news.gab.com'
+        footerButtonHref='https://news.sm.problemfighter.net'
       >
         <div className={[_s.d, _s.borderTop1PX, _s.borderBottom1PX, _s.borderColorSecondary, _s.flexRow, _s.w100PC, _s.overflowXScroll, _s.py15, _s.pl15].join(' ')}>
           {

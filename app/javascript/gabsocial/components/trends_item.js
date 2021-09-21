@@ -55,7 +55,7 @@ class TrendsItem extends ImmutablePureComponent {
             </Text>
             <DotTextSeperator />
             <Text color='secondary' size='small' className={_s.ml5}>
-              trends.gab.com
+              trends.sm.problemfighter.net
             </Text>
             <DotTextSeperator />
             <Text color='secondary' size='small' className={_s.ml5}>

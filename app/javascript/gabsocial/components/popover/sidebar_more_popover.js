@@ -31,7 +31,7 @@ class SidebarMorePopover extends React.PureComponent {
           items={[
             {
               title: intl.formatMessage(messages.help),
-              href: 'https://help.gab.com',
+              href: 'https://help.sm.problemfighter.net',
             },
             {
               title: 'Gab Deck',

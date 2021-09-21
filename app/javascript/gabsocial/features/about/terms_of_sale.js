@@ -120,7 +120,7 @@ export default class TermsOfSale extends React.PureComponent {
                 className={_s.displayInline}
                 href='/about/sales'
               >
-                https://gab.com/about/sales
+                https://sm.problemfighter.net/about/sales
               </Button>
               .
             </Text>

@@ -9,7 +9,7 @@ assets_host ||= "http#{Rails.configuration.x.use_https ? 's' : ''}://#{base_host
 Rails.application.config.content_security_policy do |p|
   p.base_uri        :none
   p.default_src     :none
-  p.frame_ancestors :self, "https://*.gab.com", "https://*.openplatform.us"
+  p.frame_ancestors :self, "https://*.sm.problemfighter.net", "https://*.openplatform.us"
   p.font_src        :self, assets_host
   p.img_src         :self, :https, :data, :blob, assets_host
   p.style_src       :self, :unsafe_inline, assets_host
@@ -20,11 +20,11 @@ Rails.application.config.content_security_policy do |p|
   if Rails.env.development?
     webpacker_urls = %w(ws http).map { |protocol| "#{protocol}#{Webpacker.dev_server.https? ? 's' : ''}://#{Webpacker.dev_server.host_with_port}" }
 
-    p.connect_src :self, :blob, assets_host, Rails.configuration.x.streaming_api_base_url, *webpacker_urls, "https://*.gab.com"
-    p.script_src  :self, :unsafe_inline, :unsafe_eval, assets_host, "https://*.gab.com"
+    p.connect_src :self, :blob, assets_host, Rails.configuration.x.streaming_api_base_url, *webpacker_urls, "https://*.sm.problemfighter.net"
+    p.script_src  :self, :unsafe_inline, :unsafe_eval, assets_host, "https://*.sm.problemfighter.net"
   else
-    p.connect_src :self, :blob, assets_host, Rails.configuration.x.streaming_api_base_url, "https://*.gab.com"
-    p.script_src  :self, assets_host, "https://*.gab.com"
+    p.connect_src :self, :blob, assets_host, Rails.configuration.x.streaming_api_base_url, "https://*.sm.problemfighter.net"
+    p.script_src  :self, assets_host, "https://*.sm.problemfighter.net"
   end
 end
 

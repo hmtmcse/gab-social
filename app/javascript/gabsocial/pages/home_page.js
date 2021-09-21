@@ -99,7 +99,7 @@ class HomePage extends React.PureComponent {
         actions={[
           {
             icon: 'tv',
-            href: 'https://tv.gab.com',
+            href: 'https://tv.sm.problemfighter.net',
           },
           {
             icon: 'search',

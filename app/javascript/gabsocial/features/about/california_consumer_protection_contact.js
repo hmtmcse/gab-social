@@ -27,9 +27,9 @@ export default class CaliforniaConsumerProtectionContact extends React.PureCompo
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:dataprivacy@gab.com'
+                href='mailto:dataprivacy@sm.problemfighter.net'
               >
-                dataprivacy@gab.com
+                dataprivacy@sm.problemfighter.net
               </Button>
             </Text>
 

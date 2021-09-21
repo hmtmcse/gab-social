@@ -15,9 +15,9 @@ class REST::MediaAttachmentSerializer < ActiveModel::Serializer
     object
       .file_file_name
       .sub("gab://media/", "")
-      .gsub("https://gabfiles.blob.core.windows.net/", "https://gab.com/media/")
-      .gsub("https://files.gab.com/file/files-gab/", "https://gab.com/media/")
-      .gsub("https://f002.backblazeb2.com/file/files-gab/", "https://gab.com/media/")
+      .gsub("https://gabfiles.blob.core.windows.net/", "https://sm.problemfighter.net/media/")
+      .gsub("https://files.sm.problemfighter.net/file/files-gab/", "https://sm.problemfighter.net/media/")
+      .gsub("https://f002.backblazeb2.com/file/files-gab/", "https://sm.problemfighter.net/media/")
       .split("|")
   end
 

@@ -13,9 +13,9 @@ export default class About extends React.PureComponent {
       <div className={[_s.d].join(' ')}>
         <Block>
           <div className={[_s.d, _s.px15, _s.py15, _s.mb10].join(' ')}>
-            <Heading>About Gab.com</Heading>
+            <Heading>About sm.problemfighter.net</Heading>
             
-            <Text tagName='p' className={_s.mt15} size='medium'>This is the Gab Social instance of Gab.com. Political speech protected by the First Amendment is welcome on this instance.</Text>
+            <Text tagName='p' className={_s.mt15} size='medium'>This is the Gab Social instance of sm.problemfighter.net. Political speech protected by the First Amendment is welcome on this instance.</Text>
             
             <Text tagName='p' className={_s.mt15} size='medium'>
               For full terms and conditions of use of this site please see&nbsp;
@@ -27,7 +27,7 @@ export default class About extends React.PureComponent {
                 className={_s.displayInline}
                 to='/about/tos'
               >
-                https://gab.com/about/tos
+                https://sm.problemfighter.net/about/tos
               </Button>.
             </Text>
           </div>
@@ -39,8 +39,8 @@ export default class About extends React.PureComponent {
 
             <Text tagName='p' className={_s.mt15} size='medium'>At Gab, we believe that the future of online publishing is decentralized and open. We believe that users of social networks should be able to control their social media experience on their own terms, rather than the terms set down by Big Tech.</Text>
             <Text tagName='p' className={_s.mt15} size='medium'>Gab Social is a fresh take on one of the Internet's most popular applications: social networking. Originally forked from the Mastodon project, Gab's codebase is free and open-source, licensed under the GNU Affero General Public License version 3 (AGPL3).</Text>
-            <Text tagName='p' className={_s.mt15} size='medium'>As a result, you, the user, have a choice when using Gab Social: you can either have an account on Gab.com, or, if you don't like what we're doing on Gab.com or simply want to manage your own experience, you can spin up your own Gab Social server that you control, that allows you to communicate with millions of users on their own federated servers from around the world, including users on Gab.</Text>
-            <Text tagName='p' className={_s.mt15} size='medium'>Gab.com strives to be the home of free speech online. We work on Gab Social 100% of the time as our full-time jobs. We positively encourage you to either join us on Gab.com or to spin up your own Gab Social server that you control to help take back control of the Web for the People.</Text>
+            <Text tagName='p' className={_s.mt15} size='medium'>As a result, you, the user, have a choice when using Gab Social: you can either have an account on sm.problemfighter.net, or, if you don't like what we're doing on sm.problemfighter.net or simply want to manage your own experience, you can spin up your own Gab Social server that you control, that allows you to communicate with millions of users on their own federated servers from around the world, including users on Gab.</Text>
+            <Text tagName='p' className={_s.mt15} size='medium'>sm.problemfighter.net strives to be the home of free speech online. We work on Gab Social 100% of the time as our full-time jobs. We positively encourage you to either join us on sm.problemfighter.net or to spin up your own Gab Social server that you control to help take back control of the Web for the People.</Text>
 
             <Text tagName='p' className={_s.mt15} size='medium'>
               <Button
@@ -49,9 +49,9 @@ export default class About extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='https://code.gab.com/gab/gab-open-source'
+                href='https://code.sm.problemfighter.net/gab/gab-open-source'
               >
-                https://code.gab.com/gab/gab-open-source
+                https://code.sm.problemfighter.net/gab/gab-open-source
               </Button>
             </Text>
           </div>

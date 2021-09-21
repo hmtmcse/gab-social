@@ -144,7 +144,7 @@ export default class CaliforniaConsumerProtection extends React.PureComponent {
             />
 
             <Text tagName='p' className={[_s.mt15, _s.mb15].join(' ')} size='medium' weight='bold'>Reselling Personal Information</Text>
-            <Text tagName='p' className={_s.mt15} size='medium'>The CCPA prohibits a third party from reselling personal information unless you have received explicit notice and an opportunity to opt-out of further sales. We do not sell your personal information and to our knowledge none of our service providers sell your personal information. If at any future time we do sell users’ personal information you will be afforded the opportunity to opt-out and we will provide a clear and conspicuous link on Gab.com that will enable you to opt-out.</Text>
+            <Text tagName='p' className={_s.mt15} size='medium'>The CCPA prohibits a third party from reselling personal information unless you have received explicit notice and an opportunity to opt-out of further sales. We do not sell your personal information and to our knowledge none of our service providers sell your personal information. If at any future time we do sell users’ personal information you will be afforded the opportunity to opt-out and we will provide a clear and conspicuous link on sm.problemfighter.net that will enable you to opt-out.</Text>
 
             <br />
             <Heading size='h2'>Your Rights and Choices </Heading>
@@ -223,9 +223,9 @@ export default class CaliforniaConsumerProtection extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:dataprivacy@gab.com'
+                href='mailto:dataprivacy@sm.problemfighter.net'
               >
-                dataprivacy@gab.com
+                dataprivacy@sm.problemfighter.net
               </Button>
               &nbsp;; sending a request to us via our CCPA portal at&nbsp;
               <Button
@@ -236,7 +236,7 @@ export default class CaliforniaConsumerProtection extends React.PureComponent {
                 className={_s.displayInline}
                 href='/about/ccpa/contact'
               >
-                gab.com/about/ccpa/contact
+                sm.problemfighter.net/about/ccpa/contact
               </Button>
               , or or mailing us at
             </Text>
@@ -272,9 +272,9 @@ export default class CaliforniaConsumerProtection extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:dataprivacy@gab.com'
+                href='mailto:dataprivacy@sm.problemfighter.net'
               >
-                dataprivacy@gab.com
+                dataprivacy@sm.problemfighter.net
               </Button>
               .
             </Text>
@@ -342,9 +342,9 @@ export default class CaliforniaConsumerProtection extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:dataprivacy@gab.com'
+                href='mailto:dataprivacy@sm.problemfighter.net'
               >
-                dataprivacy@gab.com
+                dataprivacy@sm.problemfighter.net
               </Button>
             </Text>
 
@@ -363,9 +363,9 @@ export default class CaliforniaConsumerProtection extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:support@gab.com'
+                href='mailto:support@sm.problemfighter.net'
               >
-                support@gab.com
+                support@sm.problemfighter.net
               </Button>
             </Text>
 

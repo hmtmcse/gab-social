@@ -147,7 +147,7 @@ export default class Assets extends React.PureComponent {
                 className={_s.displayInline}
                 to='/about/tos'
               >
-                https://gab.com/about/tos
+                https://sm.problemfighter.net/about/tos
               </Button>.
             </Text>
 

@@ -26,9 +26,9 @@ export default class Press extends React.PureComponent {
                   color='brand'
                   backgroundColor='none'
                   className={_s.displayInline}
-                  href='mailto:press@gab.com'
+                  href='mailto:press@sm.problemfighter.net'
                 >
-                  press@gab.com
+                  press@sm.problemfighter.net
                 </Button>.
               </Text>
             </div>

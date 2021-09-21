@@ -95,9 +95,9 @@ export default class DMCA extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:support@gab.com'
+                href='mailto:support@sm.problemfighter.net'
               >
-                support@gab.com
+                support@sm.problemfighter.net
               </Button>
             </Text>
           </div>

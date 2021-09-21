@@ -176,7 +176,7 @@ class SidebarXS extends ImmutablePureComponent {
                     title: intl.formatMessage(messages.proFeed),
                   },
                   {
-                    href: 'https://pro.gab.com',
+                    href: 'https://pro.sm.problemfighter.net',
                     onClick: this.handleSidebarClose,
                     title: intl.formatMessage(messages.pro),
                   },
@@ -186,7 +186,7 @@ class SidebarXS extends ImmutablePureComponent {
                     title: intl.formatMessage(messages.shop),
                   },
                   {
-                    href: 'https://help.gab.com',
+                    href: 'https://help.sm.problemfighter.net',
                     onClick: this.handleSidebarClose,
                     title: intl.formatMessage(messages.help),
                   },

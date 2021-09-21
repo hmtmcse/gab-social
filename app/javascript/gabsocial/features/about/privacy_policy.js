@@ -29,9 +29,9 @@ export default class PrivacyPolicy extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='https://gab.com'
+                href='https://sm.problemfighter.net'
               >
-                GAB.COM
+                sm.problemfighter.net
               </Button>
               ,&nbsp;
               <Button
@@ -289,7 +289,7 @@ export default class PrivacyPolicy extends React.PureComponent {
                 className={_s.displayInline}
                 href='/about/ccpa'
               >
-                https://gab.com/about/ccpa
+                https://sm.problemfighter.net/about/ccpa
               </Button>
             </Text>
             <Text tagName='p' className={_s.mt15} size='medium'>California's "Shine the Light" law (Civil Code Section § 1798.83) permits users of our Website that are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send us an e-mail to&nbsp;
@@ -299,9 +299,9 @@ export default class PrivacyPolicy extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:support@gab.com'
+                href='mailto:support@sm.problemfighter.net'
               >
-                support@gab.com
+                support@sm.problemfighter.net
               </Button>
               &nbsp;or write to us at
             </Text>
@@ -333,9 +333,9 @@ export default class PrivacyPolicy extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='mailto:support@gab.com'
+                href='mailto:support@sm.problemfighter.net'
               >
-                support@gab.com
+                support@sm.problemfighter.net
               </Button>
             </Text>
 

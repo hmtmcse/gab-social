@@ -19,7 +19,7 @@ class Api::V1::PopularLinksController < Api::BaseController
   private
 
   def get_top_gab
-    # prod gab.com @gab account = 251
+    # prod sm.problemfighter.net @gab account = 251
     Status.where(account_id: '251').limit(2)
   end
 

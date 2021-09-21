@@ -170,7 +170,7 @@ class DefaultNavigationBar extends ImmutablePureComponent {
                     <NavigationBarButton title='Explore' icon='explore' to='/explore' />
                     <NavigationBarButton title='News' icon='news' to='/news' />
                     <NavigationBarButton title='Groups' icon='group' to='/groups' />
-                    <NavigationBarButton title='TV' icon='tv' href='https://tv.gab.com' />
+                    <NavigationBarButton title='TV' icon='tv' href='https://tv.sm.problemfighter.net' />
 
                     <div className={[_s.d, _s.h20PX, _s.w1PX, _s.mr10, _s.ml10, _s.bgNavigationBlend].join(' ')} />
 
@@ -202,7 +202,7 @@ class DefaultNavigationBar extends ImmutablePureComponent {
                 {
                   !!account && isHome &&
                   <button
-                    title='Gab.com'
+                    title='sm.problemfighter.net'
                     href='/'
                     className={[_s.h53PX, _s.bgTransparent, _s.outlineNone, _s.cursorPointer, _s.d, _s.jcCenter].join(' ')}
                   >

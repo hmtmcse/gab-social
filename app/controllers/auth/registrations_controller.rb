@@ -128,7 +128,7 @@ class Auth::RegistrationsController < Devise::RegistrationsController
 
     return false if serverToken.nil? || serverToken.empty? || typedChallenge.nil? || typedChallenge.empty?
     
-    Request.new(:post, "https://captcha.gab.com/captcha/#{serverToken}/verify", form: {
+    Request.new(:post, "https://captcha.sm.problemfighter.net/captcha/#{serverToken}/verify", form: {
       "serverKey" => ENV.fetch('GAB_CAPTCHA_SECRET_KEY', ''),
       "value" => typedChallenge,
       "username" => username,

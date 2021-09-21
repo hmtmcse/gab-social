@@ -88,7 +88,7 @@ class Api::BaseController < ApplicationController
     # elsif !current_user.confirmed?
     #   render json: { error: 'Your login is missing a confirmed e-mail address' }, status: 403
     elsif !current_user.account.nil? and current_user.account.is_spam?
-      render json: { error: 'Your account has been flagged as spam. Please contact support@gab.com if you believe this is an error.' }, status: 403
+      render json: { error: 'Your account has been flagged as spam. Please contact support@sm.problemfighter.net if you believe this is an error.' }, status: 403
     elsif !current_user.approved?
       render json: { error: 'Your login is currently pending approval' }, status: 403
     end

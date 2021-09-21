@@ -11,7 +11,7 @@ namespace :repo do
   # task :authors do
   #   # Gab AI, Inc., does not disclose information about contributors to the Gab
   #   # Social project in this way. Please refer to our public git repository or
-  #   # contact us directly at legal@gab.com with any questions about the
+  #   # contact us directly at legal@sm.problemfighter.net with any questions about the
   #   # contributors to Gab Social.
   # end
 
@@ -34,7 +34,7 @@ namespace :repo do
   #               # (Rjc) 2019-07-03
   #               # this can't possibly work
   #               # will adapt post-launch I am trying to ship
-  #               response = HTTP.headers('Authorization' => "token #{ENV['GITLAB_API_TOKEN']}").get("https://api.code.gab.com/repos/gab/social/gab-social/pulls/#{pull_request_number}")
+  #               response = HTTP.headers('Authorization' => "token #{ENV['GITLAB_API_TOKEN']}").get("https://api.code.sm.problemfighter.net/repos/gab/social/gab-social/pulls/#{pull_request_number}")
 
   #               if response.code == 403
   #                 sleep_for = (response.headers['X-RateLimit-Reset'].to_i - Time.now.to_i).abs

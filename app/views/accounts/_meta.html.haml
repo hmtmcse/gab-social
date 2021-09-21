@@ -6,7 +6,7 @@
     %meta{ name: 'robots', content: 'noindex' }/
 
   = opengraph 'og:type', 'profile'
-  = render 'accounts/og', account: account, url: "https://gab.com/#{account.username}"
+  = render 'accounts/og', account: account, url: "https://sm.problemfighter.net/#{account.username}"
 
   - if older_url
     %link{ rel: 'next', href: older_url }/

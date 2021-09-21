@@ -193,7 +193,7 @@ class SwitchingArea extends React.PureComponent {
         }
         {
           !me &&
-          <WrappedRoute path='/' exact publicRoute page={ExplorePage} component={ExploreTimeline} content={children} componentParams={{ title: 'Gab.com' }} />
+          <WrappedRoute path='/' exact publicRoute page={ExplorePage} component={ExploreTimeline} content={children} componentParams={{ title: 'sm.problemfighter.net' }} />
         }
 
         <WrappedRoute path='/home' exact page={HomePage} component={HomeTimeline} content={children} />

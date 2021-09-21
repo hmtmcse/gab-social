@@ -49,7 +49,7 @@ class REST::GroupSerializer < ActiveModel::Serializer
   def clean_migrated_url
     object
       .cover_image_file_name
-      .sub("gab://groups/", "https://gab.com/media/user/")
+      .sub("gab://groups/", "https://sm.problemfighter.net/media/user/")
   end
 
   def cover_image_url

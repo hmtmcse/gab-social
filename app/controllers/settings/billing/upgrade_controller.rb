@@ -7,7 +7,7 @@ class Settings::Billing::UpgradeController < Settings::BaseController
 
 	def init_client
 		@client = Btcpay::Client.new(
-			api_uri: 'https://btcpay.gab.com',
+			api_uri: 'https://btcpay.sm.problemfighter.net',
 			legacy_token: ENV['BTCPAY_LEGACY_TOKEN'],
 			pub_key: ENV['BTCPAY_PUB_KEY'],
 			client_id: ENV['BTCPAY_PUB_KEY'],

@@ -37,7 +37,7 @@ const GlobalFooter = () => (
               title='Join'
               items={[
                 {
-                  href: 'https://gab.com',
+                  href: 'https://sm.problemfighter.net',
                   title: 'Gab Social',
                 },
                 {
@@ -45,7 +45,7 @@ const GlobalFooter = () => (
                   title: 'Dissenter Browser',
                 },
                 {
-                  href: 'https://chat.gab.com',
+                  href: 'https://chat.sm.problemfighter.net',
                   title: 'Gab Chat',
                 },
               ]}
@@ -55,15 +55,15 @@ const GlobalFooter = () => (
               title='Stay Informed'
               items={[
                 {
-                  href: 'https://trends.gab.com',
+                  href: 'https://trends.sm.problemfighter.net',
                   title: 'Gab Trends',
                 },
                 {
-                  href: 'https://news.gab.com',
+                  href: 'https://news.sm.problemfighter.net',
                   title: 'Gab News',
                 },
                 {
-                  href: 'https://apps.gab.com',
+                  href: 'https://apps.sm.problemfighter.net',
                   title: 'Gab Apps',
                 },
               ]}
@@ -73,7 +73,7 @@ const GlobalFooter = () => (
               title='Support Us'
               items={[
                 {
-                  href: 'https://pro.gab.com',
+                  href: 'https://pro.sm.problemfighter.net',
                   title: 'Go PRO',
                 },
                 {
@@ -81,7 +81,7 @@ const GlobalFooter = () => (
                   title: 'Merch Store',
                 },
                 {
-                  href: 'https://news.gab.com/support-gab',
+                  href: 'https://news.sm.problemfighter.net/support-gab',
                   title: 'Affiliates',
                 },
               ]}
@@ -103,7 +103,7 @@ const GlobalFooter = () => (
                   title: 'Copyright Policy',
                 },
                 {
-                  href: 'https://help.gab.com',
+                  href: 'https://help.sm.problemfighter.net',
                   title: 'Contact Us',
                 },
               ]}
@@ -131,7 +131,7 @@ const GlobalFooter = () => (
               color='primary'
               backgroundColor='none'
               className={_s.displayInline}
-              href='https://gab.com'
+              href='https://sm.problemfighter.net'
             >
               <Text>Gab AI Inc.</Text>
             </Button>

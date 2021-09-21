@@ -20,7 +20,7 @@ class LinkFooter extends React.PureComponent {
 
     const linkFooterItems = [
       {
-        href: 'https://help.gab.com',
+        href: 'https://help.sm.problemfighter.net',
         text: intl.formatMessage(messages.help),
       },
       {
@@ -106,7 +106,7 @@ class LinkFooter extends React.PureComponent {
             defaultMessage='Gab Social is open source software.'
             values={{
               gitlab: (
-                <a href='https://code.gab.com/gab/gab-open-source' className={[_s.displayInlineBlock, _s.inherit].join(' ')} rel={DEFAULT_REL} target='_blank'>
+                <a href='https://code.sm.problemfighter.net/gab/gab-open-source' className={[_s.displayInlineBlock, _s.inherit].join(' ')} rel={DEFAULT_REL} target='_blank'>
                   code.gab
                 </a>
               )

@@ -32,7 +32,7 @@ class EmailConfirmationReminderModal extends React.PureComponent {
             isOutline
             color='brand'
             backgroundColor='none'
-            href={`mailto:support@gab.com?subject=Please%20confirm%20my%20email%20(${me})&body=My%20username%20is:%20${meUsername}%20and%20account%20id%20is:%20${me}`}
+            href={`mailto:support@sm.problemfighter.net?subject=Please%20confirm%20my%20email%20(${me})&body=My%20username%20is:%20${meUsername}%20and%20account%20id%20is:%20${me}`}
             className={[_s.flexRow, _s.aiCenter, _s.jcCenter, _s.mr10].join(' ')}
           >
             <Text color='inherit' weight='medium' align='center'>

@@ -42,7 +42,7 @@ class NavSettingsPopover extends React.PureComponent {
             },
             {
               title: intl.formatMessage(messages.help),
-              href: 'https://help.gab.com',
+              href: 'https://help.sm.problemfighter.net',
             },
             {
               title: intl.formatMessage(messages.settings),

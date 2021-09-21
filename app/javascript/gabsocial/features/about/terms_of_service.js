@@ -51,9 +51,9 @@ export default class TermsOfService extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='https://gab.com'
+                href='https://sm.problemfighter.net'
               >
-                GAB.COM
+                sm.problemfighter.net
               </Button>
               ,&nbsp;
               <Button
@@ -73,9 +73,9 @@ export default class TermsOfService extends React.PureComponent {
                 color='brand'
                 backgroundColor='none'
                 className={_s.displayInline}
-                href='https://gab.com'
+                href='https://sm.problemfighter.net'
               >
-                GAB.COM
+                sm.problemfighter.net
               </Button>
               ,&nbsp;
               <Button
@@ -225,7 +225,7 @@ export default class TermsOfService extends React.PureComponent {
                 <Text tagName='p' size='medium'>If we provide desktop, mobile, or other applications for download, you may download one copy to each of your computers or mobile devices solely for your own personal use, provided you agree to be bound by our end user license agreement for such applications.</Text>
               </li>
               <li className={_s.mt10}>
-                <Text tagName='p' size='medium'>Where we provide social media features with certain content on Gab.com, OnGab.com and Dissenter.com, you may take such actions as are enabled by such features.</Text>
+                <Text tagName='p' size='medium'>Where we provide social media features with certain content on sm.problemfighter.net, Onsm.problemfighter.net and Dissenter.com, you may take such actions as are enabled by such features.</Text>
               </li>
             </ul>
 
@@ -245,7 +245,7 @@ export default class TermsOfService extends React.PureComponent {
 
             <br />
             <Heading size='h2'>Trademarks</Heading>
-            <Text tagName='p' className={_s.mt15} size='medium'>The Company name, the terms “GAB”, “GAB.COM,” “DISSENTER,” “COMMENT SECTION OF THE INTERNET,” the GAB and GAB.COM logos, and all related names, logos, product and service names, designs, and slogans are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written permission of the Company. All other names, logos, product and service names, designs, and slogans on this Website are the trademarks of their respective owners.</Text>
+            <Text tagName='p' className={_s.mt15} size='medium'>The Company name, the terms “GAB”, “sm.problemfighter.net,” “DISSENTER,” “COMMENT SECTION OF THE INTERNET,” the GAB and sm.problemfighter.net logos, and all related names, logos, product and service names, designs, and slogans are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written permission of the Company. All other names, logos, product and service names, designs, and slogans on this Website are the trademarks of their respective owners.</Text>
 
             <br />
             <Heading size='h2'>Prohibited Uses</Heading>

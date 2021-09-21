@@ -129,10 +129,10 @@ class DefaultSidebar extends ImmutablePureComponent {
         }
 
         <SidebarSectionTitle>{intl.formatMessage(messages.explore)}</SidebarSectionTitle>
-        <SidebarSectionItem title='Apps' icon='apps' href='https://apps.gab.com' />
+        <SidebarSectionItem title='Apps' icon='apps' href='https://apps.sm.problemfighter.net' />
         <SidebarSectionItem title='Shop' icon='shop' href='https://shop.dissenter.com' />
-        <SidebarSectionItem title='Trends' icon='trends' href='https://trends.gab.com' />
-        <SidebarSectionItem title='GabPRO' icon='pro' href='https://pro.gab.com' />
+        <SidebarSectionItem title='Trends' icon='trends' href='https://trends.sm.problemfighter.net' />
+        <SidebarSectionItem title='GabPRO' icon='pro' href='https://pro.sm.problemfighter.net' />
         <SidebarSectionItem title='Dissenter' icon='dissenter' href='https://dissenter.com' />
          
       </SidebarLayout>
